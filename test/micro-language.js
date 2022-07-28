@@ -6,7 +6,7 @@
   Nest calculations: (+ (* 10 2) (- (/ 50 3) 2))
   ( ( 10 * 2) + ( ( 50 / 3) - 2))
 */
-const { digits, str, choice, sequenceOf, between, lazy } = require('./index');
+const { digits, str, choice, sequenceOf, between, lazy } = require('../lib/index.js');
 
 const betweenBrackets = between(str('('), str(')'));
 
